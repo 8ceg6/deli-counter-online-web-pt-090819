@@ -6,6 +6,6 @@ def line(array)
     array.each.with_index(1) do |name,index|
       current_line += " #{index}. #{name}"
     endputs "#{current_line}"
-  end
+  
   end
 end  
