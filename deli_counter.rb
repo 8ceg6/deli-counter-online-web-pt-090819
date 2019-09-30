@@ -4,6 +4,7 @@ def line(array)
   else
     current_line = "The line is currently:"
     array.each.with_index(1) do |name,index|
-      current_line += " #{index}"
+      current_line += " #{index}. #{name}"
+    endputs "#{current_line}"
   end
 end  
