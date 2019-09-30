@@ -7,4 +7,5 @@ def line(array)
       current_line += " #{index}. #{name}"
     endputs "#{current_line}"
   end
+  end
 end  
